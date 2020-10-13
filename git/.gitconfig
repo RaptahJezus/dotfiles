@@ -1,0 +1,6 @@
+[user]
+	name = RaptahJezus
+	email = Dan.Blazejewski@gmail.com
+
+[credential]
+	helper = cache
