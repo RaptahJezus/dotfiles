@@ -48,7 +48,7 @@ alias fuck='sudo $(fc -ln -1)'
 alias g="git"
 alias ga="git add"
 alias gc="git commit -m"
-alias gp="git pull"
+alias gp="git push"
 
 alias systemctl="sudo systemctl"
 
