@@ -3,6 +3,9 @@
 # Find out what is taking so much space on your drives
 alias diskspace="du -S | sort -n -r | less"
 
+
+bigdir() { du -cha --max-depth=1 "$1" | grep -E "M|G"; }
+
 # Easy way to extract archives
 extract () {
    if [ -f $1 ] ; then
@@ -40,6 +43,15 @@ alias s="ls"
 
 alias mkdir="mkdir -p"
 alias fuck='sudo $(fc -ln -1)'
+
+
+alias g="git"
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git pull"
+
+alias systemctl="sudo systemctl"
+
 
 #Terminal Colors
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
