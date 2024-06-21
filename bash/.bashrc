@@ -58,4 +58,4 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
-export PATH=/usr/local/sbin:/sbin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/sbin:$PATH
